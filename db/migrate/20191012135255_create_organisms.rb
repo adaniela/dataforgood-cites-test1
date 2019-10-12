@@ -1,6 +1,6 @@
-class CreateSpecies < ActiveRecord::Migration[5.2]
+class CreateOrganisms < ActiveRecord::Migration[5.2]
   def change
-    create_table :species do |t|
+    create_table :organisms do |t|
       t.string :taxonRank
       t.integer :idCITES
       t.string :nomSC
